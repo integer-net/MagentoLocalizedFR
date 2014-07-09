@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Dutch Localization package for Magento Localized (aka Magento NL) 
+ * French Localization package for Magento Localized (aka Magento FR) 
  *
  * @category   IntegerNet
- * @package    IntegerNet_MagentoLocalizedNL
+ * @package    IntegerNet_MagentoLocalizedFR
  * @copyright  Copyright (c) 2014 integer_net GmbH (http://www.integer-net.de/)
  * @license    http://opensource.org/licenses/gpl-3.0 GNU General Public License, version 3 (GPLv3)
  * @author     Andreas von Studnitz <avs@integer-net.de>
@@ -12,23 +12,23 @@
  -->
 <config>
     <modules>
-        <IntegerNet_MagentoLocalizedNL>
+        <IntegerNet_MagentoLocalizedFR>
             <version>0.1.0</version>
-        </IntegerNet_MagentoLocalizedNL>
+        </IntegerNet_MagentoLocalizedFR>
     </modules>
 
     <default>
         <general>
             <country>
-                <allow>NL</allow>
+                <allow>FR</allow>
             </country>
             <locale>
-                <code>nl_NL</code>
+                <code>fr_FR</code>
                 <code_fallback></code_fallback>
                 <firstday>1</firstday>
             </locale>
             <store_information>
-                <merchant_country>NL</merchant_country>
+                <merchant_country>FR</merchant_country>
             </store_information>
             <imprint>
                 <shop_name>Beispielshop</shop_name>
@@ -36,7 +36,7 @@
                 <zip>1234</zip>
                 <street>Musterstr. 1</street>
                 <city>Musterstadt</city>
-                <country>NL</country>
+                <country>FR</country>
                 <display_copyright>1</display_copyright>
             </imprint>
         </general>
@@ -68,7 +68,7 @@
         <autoshipping>
             <settings>
                 <enabled>1</enabled>
-                <country_id>NL</country_id>
+                <country_id>FR</country_id>
             </settings>
         </autoshipping>
 
@@ -105,33 +105,34 @@
         </payment>
 
         <magento_localized>
-            <module_title>Magento NL</module_title>
-            <module_code>magento_nl</module_code>
-            <module_url>http://www.nr-apps.com/store/magento-nl.html</module_url>
+            <module_title>Magento FR</module_title>
+            <module_code>magento_fr</module_code>
+            <module_url>http://www.nr-apps.com/store/magento-fr.html</module_url>
             <logo_filename>magento_localized/logo.png</logo_filename>
             <tracking_url>http://www.nr-apps.com/n/germanstoreconfig/tracking</tracking_url>
             <newsfeed_url>http://www.nr-apps.com/n/media/germanstoreconfig/feed.xml</newsfeed_url>
-            <iframe_url_prefix>https://www.nr-apps.com/n/magento_nl_</iframe_url_prefix>
+            <iframe_url_prefix>https://www.nr-apps.com/n/magento_fr_</iframe_url_prefix>
             <iframe_url_suffix>.html</iframe_url_suffix>
-            <iframe_main_language_code>nl</iframe_main_language_code>
+            <iframe_main_language_code>fr</iframe_main_language_code>
             <iframe_fallback_language_code>en</iframe_fallback_language_code>
             <feed_url_prefix>http://www.nr-apps.com/n/media/germanstoreconfig/</feed_url_prefix>
-            <default_language>nl_NL</default_language>
+            <default_language>fr_FR</default_language>
             <available_languages>
                 <en_US />
                 <de_DE />
-                <fr_FR />
+                <it_IT />
+                <es_ES />
             </available_languages>
-            <country>NL</country>
+            <country>FR</country>
             <currency>EUR</currency>
             <timezone>Europe/Berlin</timezone>
             <install_guide_url>
-                <nl>http://www.nr-apps.com/n/magento_nl_nl/guide.html</nl>
-                <default>http://www.nr-apps.com/n/magento_nl_en/guide.html</default>
+                <nl>http://www.nr-apps.com/n/magento_fr_fr/guide.html</nl>
+                <default>http://www.nr-apps.com/n/magento_fr_en/guide.html</default>
             </install_guide_url>
             <survey_url>
-                <nl>http://www.nr-apps.com/n/magento_nl_nl/survey.html</nl>
-                <default>http://www.nr-apps.com/n/magento_nl_en/survey.html</default>
+                <nl>http://www.nr-apps.com/n/magento_fr_fr/survey.html</nl>
+                <default>http://www.nr-apps.com/n/magento_fr_en/survey.html</default>
             </survey_url>
             <form_fields>
                 <general__imprint__vat_id>
@@ -181,7 +182,7 @@
             </modules>
         </magento_localized>
         <magesetup>
-            <default_country>NL</default_country>
+            <default_country>FR</default_country>
         </magesetup>
     </default>
 </config>
